@@ -7,7 +7,7 @@
 
 ```dart
 async{
-  var resulText = await mrz_scan.openOCR(context);
+  var resulText = await MrzScan.openOCR(context);
                   setState(() {
                     showedText = result.toString(); }); }
 ```
