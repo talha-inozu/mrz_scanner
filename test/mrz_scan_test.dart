@@ -1,3 +1,4 @@
+import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mrz_scan/mrz_scan.dart';
 import 'package:mrz_scan/mrz_scan_platform_interface.dart';
@@ -10,6 +11,12 @@ class MockMrzScanPlatform
 
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+
+  @override
+  Future<Map?> openOCR(BuildContext context) {
+    // TODO: implement openOCR
+    throw UnimplementedError();
+  }
 }
 
 void main() {
