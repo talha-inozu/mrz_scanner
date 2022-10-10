@@ -1,12 +1,7 @@
-import 'dart:io';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:camera/camera.dart';
-import 'package:image/image.dart' as imglib;
 import 'package:string_similarity/string_similarity.dart';
 
 import 'package:google_ml_kit/google_ml_kit.dart';
