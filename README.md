@@ -1,4 +1,4 @@
-# MRZ Scanner
+## MRZ Scanner
  MRZ detection and parse with OCR Scanner (İOS - Android(included Huawei devices))
  
 # Usage
